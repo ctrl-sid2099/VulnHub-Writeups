@@ -40,13 +40,14 @@
 
 ## Step 4: SSH Brute-Force Attempts (Failed):
 
-    I Attempted To Brute-Force SSH Using Multiple Tools:
+I Attempted To Brute-Force SSH Using Multiple Tools:
 
 ###  a) Using Nmap
 
     Command: nmap Target-IP -p 22 --script ssh-brute-nse --script-args userdb= <username.txt>
     
 <img width="743" height="807" alt="7 SSH(Brute-Force-Nmap)" src="https://github.com/user-attachments/assets/3bf9b5ec-d474-45ef-b3a6-78452d665361" />
+
 
 Result: Scan was very slow and No valid credentials found.
  
@@ -56,6 +57,7 @@ Result: Scan was very slow and No valid credentials found.
     
 <img width="1582" height="217" alt="8 SSH(Brute-Force-Hydra)" src="https://github.com/user-attachments/assets/bd71e13b-3397-43a2-ae3b-594df60a22e3" />
 
+
 Result: Encountered error related to encryption/authentication.
 
 ### c) Using Medusa
@@ -63,10 +65,11 @@ Result: Encountered error related to encryption/authentication.
     Command:medusa -h Target-IP -U <username.txt> -P /usr/share/wordlists/rockyou.txt -M ssh
 <img width="1337" height="728" alt="9 SSH(Brute-Force-Medusa)" src="https://github.com/user-attachments/assets/1f65c432-bb21-4ae9-9c0c-e0657511e02e" />
 
+
 Result:No credentials found even after long period of time.
 
 ### Conclusion
-SSH was not a viable attack vector, so I shifted my focus to Port: 80
+SSH was not a viable attack vector, So I shifted my focus to Port: 80
 
 
 
