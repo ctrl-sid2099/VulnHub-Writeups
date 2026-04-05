@@ -4,15 +4,15 @@ This repository contains my penetration testing writeups for machines from VulnH
 
 ## 📚 Machines
 
--Kioptrix Level 1
+- Kioptrix Level 1
 
 ## 🧠 Skills Covered
 
--Network Scanning (Nmap)
--Service Enumeration
--Web Exploitation
--Privilege Escalation
--Linux Enumeration
+- Network Scanning (Nmap)
+- Service Enumeration
+- Web Exploitation
+- Privilege Escalation
+- Linux Enumeration
 
 ## ⚠️ Disclaimer
 
