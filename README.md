@@ -10,7 +10,7 @@
 
     command: arp-scan -l
 
-<img width="794" height="546" alt="1 Kioptrix-VM" src="https://github.com/user-attachments/assets/21969c32-987c-4d00-845a-f60b8e65cd53" />
+<img width="958" height="615" alt="2 arp-scan" src="https://github.com/user-attachments/assets/95810464-1cd6-406f-87eb-0e65647c2774" />
 
 
 ## Step 2: Port Scanning
