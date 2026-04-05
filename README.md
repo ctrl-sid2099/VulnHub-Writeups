@@ -8,14 +8,14 @@
 
 ## Step 1: Finding the Target IP
 
-    command: arp-scan -l
+    Command: arp-scan -l
 
 <img width="958" height="615" alt="2 arp-scan" src="https://github.com/user-attachments/assets/95810464-1cd6-406f-87eb-0e65647c2774" />
 
 
 ## Step 2: Port Scanning
 
-    command: nmap -A Target-IP
+    Command: nmap -A Target-IP
 
 <img width="1263" height="697" alt="3 scan-result" src="https://github.com/user-attachments/assets/6c5474a0-6978-40f6-aafc-1ecbd973ee97" />
 
@@ -63,10 +63,11 @@ Result: Encountered error related to encryption/authentication.
 ### c) Using Medusa
 
     Command:medusa -h Target-IP -U <username.txt> -P /usr/share/wordlists/rockyou.txt -M ssh
+    
 <img width="1337" height="728" alt="9 SSH(Brute-Force-Medusa)" src="https://github.com/user-attachments/assets/1f65c432-bb21-4ae9-9c0c-e0657511e02e" />
 
 
-Result:No credentials found even after long period of time.
+Result: No credentials found even after long period of time.
 
 ### Conclusion
 SSH was not a viable attack vector, So I shifted my focus to Port: 80
