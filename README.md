@@ -5,6 +5,7 @@ This repository contains my penetration testing writeups for machines from VulnH
 ## 📚 Machines
 
 - Kioptrix Level 1
+- Basic-Pentesting: 1
 
 ## 🧠 Skills Covered
 
