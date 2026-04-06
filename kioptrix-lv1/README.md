@@ -1,10 +1,10 @@
 # Kioptrix Level 1 Writeup
 
 ## Machine Info
-    -Platform: VulnHub
-    -Name: Kioptrix Level 1
-    -Link: https://www.vulnhub.com/entry/kioptrix-level-1-1,22/
-    -Difficulty: Easy
+ - Platform: VulnHub
+ - Name: Kioptrix Level 1
+ - Link: https://www.vulnhub.com/entry/kioptrix-level-1-1,22/
+ - Difficulty: Easy
 
 ## Step 1: Finding the Target IP
 
