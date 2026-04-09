@@ -4,8 +4,9 @@ This repository contains my penetration testing writeups for machines from VulnH
 
 ## 📚 Machines
 
-- Kioptrix Level 1
-- Basic-Pentesting: 1
+- Kioptrix Level 1 [here](https://github.com/ctrl-sid2099/VulnHub-Writeups/tree/main/kioptrix-lv1)
+- Basic-Pentesting 1 [here](https://github.com/ctrl-sid2099/VulnHub-Writeups/tree/main/Basic-Pentesting%3A%201)
+- Metasploitable 2 [here](https://github.com/ctrl-sid2099/VulnHub-Writeups/tree/main/Metasploitable2)
 
 ## 🧠 Skills Covered
 
