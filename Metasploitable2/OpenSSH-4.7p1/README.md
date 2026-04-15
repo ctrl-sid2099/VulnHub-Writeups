@@ -16,7 +16,7 @@ Explanation:
 <img width="874" height="548" alt="4 SSH-Scan" src="https://github.com/user-attachments/assets/06642d7a-bfb5-4361-b953-1ea4c14a5625" />
 
 
-## ⚙️ STEP: 1. User Enumration through Metasploit ssh_enumusers auxiliary scanner.
+## ⚙️ STEP: 2. User Enumration through Metasploit ssh_enumusers auxiliary scanner.
 
 The ssh_enumusers module in Metasploit is an auxiliary scanner designed to enumerate valid 
 usernames on a target OpenSSH server by exploiting malformed packets or timing attacks
@@ -36,7 +36,7 @@ save these usernames in a UserNames.txt.
 
 <img width="502" height="163" alt="6 User-Found" src="https://github.com/user-attachments/assets/9734cf7d-c432-4713-a663-1d8c6aeb22b3" />
 
-## 📄 Step: 2. Use nmap built-in ssh-brute.nse script to find passwords for users.
+## 📄 Step: 3. Use nmap built-in ssh-brute.nse script to find passwords for users.
 
 👉 In Terminal Type-
 
@@ -55,7 +55,7 @@ Explanation:
 <img width="829" height="509" alt="8 Success-Brute" src="https://github.com/user-attachments/assets/1d933049-9cf5-4962-acda-17eb8284dc64" />
 
     
-## 👉 Step: 3. Initial Access
+## 👉 Step: 4. Initial Access
 
 We started by gaining access to the target machine using Telnet:
 
@@ -78,7 +78,7 @@ This failed due to insufficient permissions, confirming that we needed to escala
 
 <img width="691" height="564" alt="10 user" src="https://github.com/user-attachments/assets/39ccbd4f-00b3-45e0-8291-4db7b80cb183" />
 
-## 💡 Step: 4. Searching for SUID Binaries
+## 💡 Step: 5. Searching for SUID Binaries
 
 To find potential privilege escalation vectors, we searched for files with the SUID bit set:
 
@@ -104,7 +104,7 @@ Explanation:
 
 Its an old version (4.53), which is known to be vulnerable and supports interactive mode.
 
-## ⚙️ Step: 5. Privilege Escalation via Nmap
+## ⚙️ Step: 6. Privilege Escalation via Nmap
 
 Exploiting its interactive mode:
 
