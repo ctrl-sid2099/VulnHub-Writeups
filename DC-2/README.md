@@ -115,11 +115,11 @@ In Terminal Type:
     vi
     :set shell=/bin/bash
 
-  <img width="204" height="69" alt="14" src="https://github.com/user-attachments/assets/82920297-cd31-4ee1-ac05-50abdf1fe256" />
+<img width="204" height="69" alt="14" src="https://github.com/user-attachments/assets/82920297-cd31-4ee1-ac05-50abdf1fe256" />
 
     :shell
 
-  <img width="115" height="58" alt="15" src="https://github.com/user-attachments/assets/389036d5-b937-4ac4-ac5c-86f7d038dcdd" />
+<img width="115" height="58" alt="15" src="https://github.com/user-attachments/assets/389036d5-b937-4ac4-ac5c-86f7d038dcdd" />
 
 ### 👇 Result
 
