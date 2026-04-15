@@ -6,10 +6,10 @@
 
 Explanation:
 
-  -  nmap Target-IP #basic usage of nmap
-  - -p 22           #search for port 22 only
-  - -sV             #Finds service version
-  - -sC             #uses default nmap scripts to find vuln
+  -  nmap Target-IP basic usage of nmap
+  - -p 22 --------> search for port 22 only
+  - -sV ----------> Finds service version
+  - -sC ----------> uses default nmap scripts to find vuln
 
 ✅ The machine seems to be running OpenSSH-4.7p1.
 
@@ -44,11 +44,11 @@ save these usernames in a UserNames.txt.
 
 Explanation:
 
- - --script ssh-brute.nse   #Specify the ssh-brute.nse script
- - -p 21 **Target-Ip**      #Specify Target-IP and the port 21 
- - --script-args            #Specify the arguments for the scripts
- - userdb=**UserName.txt**  #Specify the username list
- - brute.firstonly          #Tells nmap to stop after finding one successfull credential 
+ - --script ssh-brute.nse ---> Specify the ssh-brute.nse script
+ - -p 21 **Target-Ip** ------> Specify Target-IP and the port 21 
+ - --script-args ------------> Specify the arguments for the scripts
+ - userdb=**UserName.txt** --> Specify the username list
+ - brute.firstonly ----------> Tells nmap to stop after finding one successfull credential 
 
 ## 🔥 Credentials Found
 
@@ -86,10 +86,10 @@ To find potential privilege escalation vectors, we searched for files with the S
 
 Explanation:
 
- - find /           #searches from the root directory
- - -perm            #finds files with the SUID (Set User ID) permission
- - -4000 =          #SUID bit, this means the file runs with the owner’s privileges (often root)
- - 2>/dev/null      #hides error messages (like permission denied)
+ - find / --------> searches from the root directory
+ - -perm  --------> finds files with the SUID (Set User ID) permission
+ - -4000 ---------> SUID bit, this means the file runs with the owner’s privileges (often root)
+ - 2>/dev/null ---> hides error messages (like permission denied)
 
 
 👇 This gives us results with interesting binary files that runs by *owner's* privileges :
